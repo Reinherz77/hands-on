@@ -1,7 +1,6 @@
-import data from '../../data'
 
 const TitleAPI = props => {
-    return <h1>{data.title}</h1>
+    return <h1>{props.title}</h1>
 }
 
 export default TitleAPI

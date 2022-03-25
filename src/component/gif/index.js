@@ -1,9 +1,10 @@
-import data from '../../data'
-
-const GifAPI = props => {
-    return <img src={data.url} alt="">
-        
-    </img>
+const GifAPI = ({url , title}) => {
+    return(
+        <div>
+            <p>{title}</p>
+            <img src={url} alt="" />
+        </div>
+    )
 }
 
 export default GifAPI
