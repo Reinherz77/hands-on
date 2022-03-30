@@ -1,10 +1,12 @@
 import './App.css';
-import Dashboard from './pages/home/index'
+import SearchGif from './pages/home/search';
+//import Dashboard from './pages/home/index'
+//import Searchbar from './pages/home/search';
 
 function App() {
   return (
     <div className="App">
-      <Dashboard/>
+      <SearchGif/>
     </div>
   );
 }

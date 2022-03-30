@@ -1,12 +1,10 @@
 import GifAPI from "../../component/gif"
 import gifss from "../../gifs"
 
-const ratings = gifss.filter(gif => gif.rating === 'g');
+const ratings = gifss.filter(gif => gif.rating !== 'g');
 
 function Dashboard() {
     return(
-
-        
 
         <div className="Dashboard">
             <h2>Module 2 Session 2</h2>
